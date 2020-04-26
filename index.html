@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Truyện CP | Blogtruyen.com</title>
+
+    <link href="/Content/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+    <link href="/Content/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/Content/favicon.ico" rel="icon" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/Content/bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/remark/bootstrap-extend.min.css">
+    <link rel="stylesheet" href="/Content/remark/site.min.css">
+
+    <link rel="stylesheet" href="/Content/remark/animsition/animsition.css">
+    <link rel="stylesheet" href="/Content/remark/asscrollable/asScrollable.css">
+    <link type="text/css" rel="stylesheet" href="/Content/font-awesome.min.css" />
+
+    <link href="/Content/admin.css?v=1" rel="stylesheet" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="/Content/remark/web-icons/web-icons.min.css">
+    <!-- Scripts -->
+    <script src="/Content/remark/modernizr/modernizr.js"></script>
+    <script src="/Content/remark/breakpoints/breakpoints.js"></script>
+    <script>
+        Breakpoints();
+    </script>
+
+</head>
+<body class="dashboard">
+    <nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega" role="navigation">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle hamburger hamburger-close navbar-toggle-left hided"
+                    data-toggle="menubar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="hamburger-bar"></span>
+            </button>
+            <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-collapse"
+                    data-toggle="collapse">
+                <i class="icon wb-more-horizontal" aria-hidden="true"></i>
+            </button>
+            <div class="navbar-brand navbar-brand-center site-gridmenu-toggle" data-toggle="gridmenu">
+                <a href="/admin"><img class="navbar-brand-logo" src="/Content/remark/images/blogtruyen-logo-small.png" title="Forum.BlogTruyen.Com"></a>
+            </div>
+        </div>
+
+        <div class="navbar-container container-fluid">
+            <!-- Navbar Collapse -->
+            <div class="collapse navbar-collapse navbar-collapse-toolbar" id="site-navbar-collapse">
+                <!-- Navbar Toolbar -->
+                <ul class="nav navbar-toolbar">
+                    <li class="hidden-float" id="toggleMenubar">
+                        <a data-toggle="menubar" href="#" role="button">
+                            <i class="icon hamburger hamburger-arrow-left">
+                                <span class="sr-only">Toggle menubar</span>
+                                <span class="hamburger-bar"></span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="hidden-xs" id="toggleFullscreen">
+                        <a class="icon icon-fullscreen" data-toggle="fullscreen" href="#" role="button">
+                            <span class="sr-only">Toggle fullscreen</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- End Navbar Toolbar -->
+                <!-- Navbar Toolbar Right -->
+                <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
+
+<li class="dropdown">
+    <a class="navbar-avatar dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"
+       data-animation="slide-bottom" role="button">
+        <span class="avatar avatar-online" title="Fallen Angel">
+                <img src="/Content/images/default_avatar.png" alt="Fallen Angel">
+        </span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+        <li role="presentation">
+            <a href="https://id.blogtruyen.vn/cap-nhat-thong-tin" role="menuitem"><i class="icon wb-user" aria-hidden="true"></i> Cập nhật thông tin</a>
+        </li>
+        <li class="divider" role="presentation"></li>
+        <li role="presentation">
+            
+            <a href="/Account/Logout?returnUrl=%2Fadmin" role="menuitem"><i class="icon wb-power" aria-hidden="true"></i> Thoát</a>
+        </li>
+    </ul>
+</li>
+
+                </ul>
+                <!-- End Navbar Toolbar Right -->
+            </div>
+            <!-- End Navbar Collapse -->
+            <!-- End Site Navbar Seach -->
+        </div>
+    </nav>
+    <div class="site-menubar">
+        <div class="site-menubar-body">
+            <div>
+                <div>
+
+
+
+<ul class="site-menu">
+
+    <li class="site-menu-category"><a href="/" class="text-white" style="color:#fff;">BlogTruyen.Com</a></li>
+    
+
+    <li class="site-menu-item ">
+        <a class="animsition-link" href="/admin/ManageManga/Create" data-slug="dashboard-v1">
+            <i class="site-menu-icon fa fa-pencil-square-o" aria-hidden="true"></i>
+            <span class="site-menu-title">Thêm mới truyện</span>
+        </a>
+    </li>
+
+    <li class="site-menu-item has-sub ">
+        <a href="javascript:void(0)" data-slug="uikit">
+            <i class="site-menu-icon fa fa-book" aria-hidden="true"></i>
+            <span class="site-menu-title">Quản lý truyện</span>
+            <span class="site-menu-arrow"></span>
+        </a>
+        <ul class="site-menu-sub">
+            <li class="site-menu-item">
+                <a class="animsition-link" href="/admin/truyen-da-dang" data-slug="uikit-colors">
+                    <i class="site-menu-icon " aria-hidden="true"></i>
+                    <span class="site-menu-title">Truyện đã đăng</span>
+                </a>
+            </li>
+            <li class="site-menu-item">
+                <a class="animsition-link" href="/admin/truyen-tham-gia-update" data-slug="uikit-colors">
+                    <i class="site-menu-icon " aria-hidden="true"></i>
+                    <span class="site-menu-title">Truyện tham gia update</span>
+                </a>
+            </li>
+                    </ul>
+    </li>
+    
+
+    <li class="site-menu-item has-sub ">
+        <a href="javascript:void(0)" data-slug="uikit">
+            <i class="site-menu-icon fa fa-book" aria-hidden="true"></i>
+            <span class="site-menu-title">Quản lý truyện die</span>
+            <span class="site-menu-arrow"></span>
+        </a>
+        <ul class="site-menu-sub">
+
+            <li class="site-menu-item">
+                <a class="animsition-link" href="/admin/bao-loi-truyen-da-dang" data-slug="uikit-colors">
+                    <i class="site-menu-icon " aria-hidden="true"></i>
+                    <span class="site-menu-title">Truyện đã đăng</span>
+                </a>
+            </li>
+            <li class="site-menu-item">
+                <a class="animsition-link" href="/admin/bao-loi-truyen-tham-gia-update" data-slug="uikit-colors">
+                    <i class="site-menu-icon " aria-hidden="true"></i>
+                    <span class="site-menu-title">Truyện tham gia update</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    
+
+
+
+
+    
+
+</ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Page -->
+    <div class="page">
+        <div class="page-content padding-30 container-fluid">
+            <div class="row" data-plugin="matchHeight" data-by-row="true">
+
+                
+
+
+<h2>Blog Truyện CP</h2>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- End Page -->
+    <!-- Footer -->
+    <footer class="site-footer">
+        <span class="site-footer-legal">© 2020 DO MINH HIEU</span>
+        <div class="site-footer-right">
+            Mod by <a href="https://www.youtube.com/channel/UCjVFn0dNkTqZmyN1rYF57AA">Do Minh Hieu</a>
+        </div>
+    </footer>
+    <div class="ajax-loading-box" id="ajaxLoadingBox"><div class="ajax-inner-loading-box">Đang xử lý...</div></div>
+
+    <div id="loadingOverlay">
+        <div class="overlay-frame"></div>
+        <div class="overlay-frame-content">
+            <div id="floatingCirclesG">
+                <div class="f_circleG" id="frotateG_01"></div>
+                <div class="f_circleG" id="frotateG_02"></div>
+                <div class="f_circleG" id="frotateG_03"></div>
+                <div class="f_circleG" id="frotateG_04"></div>
+                <div class="f_circleG" id="frotateG_05"></div>
+                <div class="f_circleG" id="frotateG_06"></div>
+                <div class="f_circleG" id="frotateG_07"></div>
+                <div class="f_circleG" id="frotateG_08"></div>
+            </div>
+            <div>Đang xử lý</div>
+        </div>
+    </div>
+
+    <!-- Core  -->
+    <script src="/Scripts/jquery-1.10.2.min.js"></script>
+    
+
+    <script src="/Scripts/remark/bootstrap/bootstrap.js"></script>
+    <script src="/Content/remark/animsition/jquery.animsition.js"></script>
+    <script src="/Content/remark/asscrollable/jquery.asScrollable.all.js"></script>
+    <script src="/Scripts/remark/ashoverscroll/jquery-asHoverScroll.min.js"></script>
+    <!-- Plugins -->
+    <script src="/Content/remark/intro-js/intro.js"></script>
+    <script src="/Content/remark/screenfull/screenfull.js"></script>
+
+
+    <!-- Scripts -->
+    <script src="/Scripts/remark/core.js"></script>
+    <script src="/Scripts/remark/site.js"></script>
+
+    <script src="/Scripts/remark/sections/menu.js"></script>
+    <script src="/Scripts/remark/sections/menubar.js"></script>
+    <script src="/Scripts/remark/sections/sidebar.js"></script>
+
+    <script src="/Scripts/remark/components/animsition.js"></script>
+
+    <script>
+        $(document).ajaxStart(function () { $("#ajaxLoadingBox").show(); });
+        $(document).ajaxStop(function () { $("#ajaxLoadingBox").hide(); });
+        $(document).ready(function ($) {
+            Site.run();
+        });
+        var uploaderUrl = 'https://up.blogtruyen.com/Home/UploadImageLocal';
+
+        function showLoading() {
+            $('#loadingOverlay').show();
+        }
+        function hideLoading() {
+            $('#loadingOverlay').hide();
+        }
+    </script>
+
+    
+    <script src="/Scripts/common.admin.js"></script>
+</body>
+</html>
